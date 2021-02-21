@@ -1,0 +1,7 @@
+name: Fstaskmanager
+version: ${project.version}
+main: pro.freeserver.plugin.alphakun.fstaskmanager.Fstaskmanager
+api-version: 1.16
+authors: [ Alphakun ]
+description: タスクを鯖民に課して運営がうはうはするプラグイン
+website: https://freeserver.pro/
