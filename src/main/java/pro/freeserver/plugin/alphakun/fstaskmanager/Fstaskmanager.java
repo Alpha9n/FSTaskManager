@@ -1,7 +1,9 @@
 package pro.freeserver.plugin.alphakun.fstaskmanager;
 
+import org.bukkit.NamespacedKey;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
+import pro.freeserver.plugin.alphakun.fstaskmanager.events.InventoryClick;
 
 public final class Fstaskmanager extends JavaPlugin {
 
@@ -19,6 +21,6 @@ public final class Fstaskmanager extends JavaPlugin {
     }
 
     private void eventRegister() {
-
+        getServer().getPluginManager().registerEvents(new InventoryClick(),plugin);
     }
 }
